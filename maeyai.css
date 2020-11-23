@@ -1,0 +1,275 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+  /*  color:grey;*/
+}
+/*
+h1 {
+	color:green;
+}
+
+h2 { /*Helping small & Restaurang Mae Yai */
+/*	background-color:lightgrey; 
+}
+-->*/
+p {
+	background.image: url(img/icon-food-burger.png);
+	background-repeat:repeat-y; 
+	color:#3d3d3d;
+	/*img src="pride/mike53.png" width="100" height="120" */
+}
+
+p.info {
+	color:orange;
+	width: 1152px;
+	text-align: left;
+	line-height: 18px;
+}
+h2{ /*Restaurang Mae Yai*/
+font-size: 16px;
+
+}
+p.genuin { /*Mae Yai Ã¤r en genuin*/
+/*	float:right; */
+	color:grey;
+	font-weight: lighter;
+	width: 375px;
+	text-align: right;
+	line-height: 18px;
+
+}
+/*
+.bg-yellow {
+	background-color: red;
+}
+*/
+div {
+	background-color: #a19c9c30;
+	/*width: 20px;
+	height: 20px;*/
+}
+.content {
+	color: #fff;
+	font-size: 12px;
+	line-height: 5px;
+}
+#navigation {
+	background-color: #6f8ca3;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	width: 1175px;
+	height: 30px;
+}
+#navigation a:link {
+	color: #fff;
+	text-decoration: none; 
+}
+#navigation a:visited {
+	color: #333;
+	text-decoration: none; 
+}
+#navigation a:hover {
+	color: #273f71;
+	text-decoration: underline; 
+}
+#navigation a:active {
+	color: #fff;
+	text-decoration: none; 
+}
+#social-icons {
+	width: 178px;
+	float:right;
+}
+#social-icons img{
+	height: 28px;
+	width: 28px;
+/*	margin-top: -10px;*/
+	margin-right: 11px;
+}
+#intro-left{ /*Pick up */	
+	float:left;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 5px solid #333;
+	border-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;'
+}
+#intro-center{ /*texten centrerad */
+	font-size: 18px;
+	text-align: center;
+	margin-left: 450px;
+	width:350px;
+	padding:10px;
+	border: 5px solid #333;
+	border-color: #fff;
+
+}
+#intro-right{ /* Delivery */
+	float:right;
+	margin-top: 10px;
+	margin-right: 20px;
+	border: 5px solid #fff;
+/*	border-left: 5px; */
+/*	border-left-style: solid; */
+/*	border-left-color: #faf752; */
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+#banner{
+	width: 1220px;
+	height:372px;
+	background-image: url(img/Untitled_Artwork.png);
+	background-repeat: no-repeat; 
+}
+
+#banner-intro/*Mae Yai intro*/{
+	width: 454px;
+	position: relative;
+	top: 19px;
+	left: 478px;
+}
+#banner-intro h1{
+	margin: 0px;
+	font-size: 36px;
+	font-weight: bold;
+	color:#3e5971;
+}
+#banner-intro h2{
+	margin: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	color:#6f8ca3;
+}
+#banner-intro p{
+	font-size: 15px;	
+}
+#content-2 /*Menu*/{
+	width: 1152px;
+	height: 263px;
+	padding: 27px 30px 22px 38px;
+	background-color: #e2e6d9;
+}
+#content-2 h3{ /*THEMENU*/
+	margin-top: -20px;
+	margin-left: 275px;
+	font-size: 24px;
+	text-align: left;
+	color:#fff;
+/*	border-bottom: red; */
+}
+#content-2 h4{ /* lägg till dotted bottom border*/
+	margin-left: 55px;
+	font-size: 18px;
+	text-align: center;
+	color:#fff;
+}
+.cols{
+width: 276px;
+height: 155px;
+font-size: 12px;
+color: #393f44;
+}
+#col1 img{ /*PADDING InSIDE OF AN ELEMENT / MARGIN OUTSIDE OF AN ELEMENT */
+	margin: 0px auto;
+	width:230px;
+	height:155px;
+}
+#col1{ /*PADDING InSIDE OF AN ELEMENT / MARGIN OUTSIDE OF AN ELEMENT */
+	float:left;
+	margin-right: 60px;
+	border: 1px solid #333;
+	padding-left: 10px;
+}
+#col2{
+	float:left;
+	margin-right: 60px;
+/*	border: 1px solid #333;*/
+	border-left: 5px;
+	border-left-style: solid;
+	border-left-color: #faf752;
+	padding-left: 10px;
+
+}
+#col3 {
+	float:left;
+	border-left-style: solid;
+	border-left: 5px;
+	border-left-style: solid;
+	border-left-color: #71fa52;
+	padding-left: 10px;	
+}
+/*
+#content-main-courses p {
+	margin-top: -20px;
+	margin-left: 275px;
+/*	font-size: 24px;*/
+/*	text-align: left;
+	color:#fff;
+
+}*/
+#content-main-courses {
+	width: 1152px;
+	height: 263px;
+	padding: 27px 30px 22px 38px;
+	background-color: #e2e6d9;
+}
+
+/*FOOTER CONTENT*/
+#footer{ 
+	width:1152px;
+	height: 60px;
+	background-color: #6f8ca3;
+	padding: 13px 0px 27px 30px;
+	margin-top: 245px;
+}
+#logo-footer{
+	float:left;
+}
+#logo-footer h4{
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline;
+
+}
+#logo-footer h5{
+	color: #fff;
+	font-weight: 14px;
+	font-weight: bold;
+	display: inline;
+	margin-left: 8px;
+}
+#logo-footer p{
+	float: center;
+	color: #fff;
+	font-size: 11px;
+}
+#OPEN p{
+	text-align: center;
+}
+
+#social-icons-footer{
+	float:right;
+
+}
+#social-icons-footer img{
+	margin-right: 31px;
+	margin-top: -10px;
+	width: 34px;
+	height: 34px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	body {
+		background-color: #a19c9c;
+	}
+	nav.navigation{
+		overflow: hidden;
+	}
+
+}
