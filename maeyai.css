@@ -13,21 +13,32 @@ h2 { /*Helping small & Restaurang Mae Yai */
 }
 -->*/
 p {
-	background.image: url(img/icon-food-burger.png);
-	background-repeat:repeat-y; 
-	color:#3d3d3d;
+	background.image: url(img/icon-food-burger.png);	
+	/*background-repeat:repeat-y; */
+/*	color:#3d3d3d; */
 	/*img src="pride/mike53.png" width="100" height="120" */
 }
 
-p.info {
+p.info { /*Mae Yai Ã¤r en genuin thailÃ¤ndsk*/
+	padding: 4px;
+	margin: 4px; margin-right: -176px;
+	font-size: 14px;
+	font-weight: lighter;
 	color:orange;
-	width: 1152px;
-	text-align: left;
-	line-height: 18px;
+	background-color: #d3d3d380;
+	border: 5px solid #33333310;
+	width: 620px; 
+	float: right;
+	text-align: right;
+	line-height: 20px;
 }
 h2{ /*Restaurang Mae Yai*/
 font-size: 16px;
 
+}
+
+image.float1{
+	float:left;
 }
 p.genuin { /*Mae Yai Ã¤r en genuin*/
 /*	float:right; */
@@ -44,7 +55,7 @@ p.genuin { /*Mae Yai Ã¤r en genuin*/
 }
 */
 div {
-	background-color: #a19c9c30;
+	/*background-color: #a19c9c30;*/
 	/*width: 20px;
 	height: 20px;*/
 }
@@ -84,7 +95,6 @@ div {
 #social-icons img{
 	height: 28px;
 	width: 28px;
-/*	margin-top: -10px;*/
 	margin-right: 11px;
 }
 #intro-left{ /*Pick up */	
@@ -94,7 +104,8 @@ div {
 	border: 5px solid #333;
 	border-color: #fff;
 	padding-left: 10px;
-	padding-right: 10px;'
+	padding-right: 10px;
+	background-color: darkgrey;
 }
 #intro-center{ /*texten centrerad */
 	font-size: 18px;
@@ -104,6 +115,7 @@ div {
 	padding:10px;
 	border: 5px solid #333;
 	border-color: #fff;
+	background-color: darkgrey;
 
 }
 #intro-right{ /* Delivery */
@@ -111,18 +123,16 @@ div {
 	margin-top: 10px;
 	margin-right: 20px;
 	border: 5px solid #fff;
-/*	border-left: 5px; */
-/*	border-left-style: solid; */
-/*	border-left-color: #faf752; */
 	padding-left: 10px;
 	padding-right: 10px;
-
+	background-color: darkgrey;
 }
-#banner{
+#banner{ /* <-PICK DELIVERY-> */
 	width: 1220px;
 	height:372px;
 	background-image: url(img/Untitled_Artwork.png);
 	background-repeat: no-repeat; 
+
 }
 
 #banner-intro/*Mae Yai intro*/{
@@ -158,7 +168,6 @@ div {
 	font-size: 24px;
 	text-align: left;
 	color:#fff;
-/*	border-bottom: red; */
 }
 #content-2 h4{ /* lägg till dotted bottom border*/
 	margin-left: 55px;
@@ -180,20 +189,17 @@ color: #393f44;
 #col1{ /*PADDING InSIDE OF AN ELEMENT / MARGIN OUTSIDE OF AN ELEMENT */
 	float:left;
 	margin-right: 60px;
-	border: 1px solid #333;
-	padding-left: 10px;
+	padding-right: 10px;
 }
-#col2{
+#col2{ /*Second column (Satay & Kaeng Pet)*/
 	float:left;
 	margin-right: 60px;
-/*	border: 1px solid #333;*/
 	border-left: 5px;
 	border-left-style: solid;
 	border-left-color: #faf752;
 	padding-left: 10px;
-
 }
-#col3 {
+#col3 { /*Column to right (Tom yam) & (Kaeng Panaeng)*/
 	float:left;
 	border-left-style: solid;
 	border-left: 5px;
@@ -201,15 +207,6 @@ color: #393f44;
 	border-left-color: #71fa52;
 	padding-left: 10px;	
 }
-/*
-#content-main-courses p {
-	margin-top: -20px;
-	margin-left: 275px;
-/*	font-size: 24px;*/
-/*	text-align: left;
-	color:#fff;
-
-}*/
 #content-main-courses {
 	width: 1152px;
 	height: 263px;
@@ -217,16 +214,18 @@ color: #393f44;
 	background-color: #e2e6d9;
 }
 
-/*FOOTER CONTENT*/
+/*----FOOTER CONTENT----*/
 #footer{ 
 	width:1152px;
-	height: 60px;
+	height: 110px;
 	background-color: #6f8ca3;
-	padding: 13px 0px 27px 30px;
+	padding: 13px 0px 27px 70px;
 	margin-top: 245px;
+	margin-left: -40px;
 }
 #logo-footer{
 	float:left;
+
 }
 #logo-footer h4{
 	color: #fff;
@@ -237,7 +236,7 @@ color: #393f44;
 }
 #logo-footer h5{
 	color: #fff;
-	font-weight: 14px;
+	font-size: 14px;
 	font-weight: bold;
 	display: inline;
 	margin-left: 8px;
@@ -247,13 +246,25 @@ color: #393f44;
 	color: #fff;
 	font-size: 11px;
 }
-#OPEN p{
+#footerOpen p{
+	margin-top: 0px;
+	color: #fff;
+	float:left;
+	text-align: left;
+	font-size: 11px;
+}
+#footerOpen {
+	margin-top: -10px;
+	margin-left: 275px;
+	color: #fff;
+	float:left;
 	text-align: center;
+	line-height: 18px;
+
 }
 
 #social-icons-footer{
 	float:right;
-
 }
 #social-icons-footer img{
 	margin-right: 31px;
@@ -269,7 +280,11 @@ color: #393f44;
 		background-color: #a19c9c;
 	}
 	nav.navigation{
-		overflow: hidden;
+
 	}
 
+	footer {
+
+
+	}
 }
